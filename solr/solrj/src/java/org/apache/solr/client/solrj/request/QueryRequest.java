@@ -36,12 +36,12 @@ public class QueryRequest extends SolrRequest<QueryResponse> {
   
   public QueryRequest()
   {
-    super( METHOD.GET, null );
+    super( METHOD.POST, null );
   }
 
   public QueryRequest( SolrParams q )
   {
-    super( METHOD.GET, null );
+    super( METHOD.POST, null );
     query = q;
   }
   
